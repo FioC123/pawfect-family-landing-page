@@ -160,13 +160,13 @@ export default function App() {
       <section className="container section gallery-grid">
         <div>
           <p className="eyebrow">Gallery</p>
-          <h2>屬於你同毛孩的溫柔時光</h2>
+          <h2>屬於你同毛孩的時光</h2>
           <p className="section-text">
             以你同毛孩之間最自然嘅相處為主角，從輕鬆互動、溫柔肖像，到戶外散步同奔跑瞬間，記錄一輯真正屬於你哋嘅家庭照片。
           </p>
 
           <div className="check-list">
-            {["一家人自然互動", "毛孩望鏡頭肖像", "戶外散步感生活照", "動態奔跑畫面"].map(
+          {["自然互動合照", "毛孩溫柔肖像", "戶外日常", "開心奔跑瞬間"].map(
               (item) => (
                 <p key={item}>
                   <CheckCircle2 size={20} />

@@ -160,7 +160,7 @@ export default function App() {
       <section className="container section gallery-grid">
         <div>
           <p className="eyebrow">Gallery</p>
-          <h2>自然、乾淨、有陪伴感</h2>
+          <h2>屬於你同毛孩的溫柔時光</h2>
           <p className="section-text">
             以你同毛孩之間最自然嘅相處為主角，從輕鬆互動、溫柔肖像，到戶外散步同奔跑瞬間，記錄一輯真正屬於你哋嘅家庭照片。
           </p>

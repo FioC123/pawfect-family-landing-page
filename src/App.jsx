@@ -17,18 +17,18 @@ import { motion } from "framer-motion";
 
 export default function App() {
   const whatsappLink =
-    "https://wa.me/85200000000?text=你好，我想查詢 Pawfect Family 寵物展限定拍攝方案。";
+    "https://wa.me/85294422612?text=你好，我想查詢 Pawfect Family 寵物展限定拍攝方案。";
 
   const heroImage = "/images/FIO_5533.jpeg";
 
   const galleryImages = [
-    { src: "/images/FIO_1514.jpeg", label: "主人與毛孩互動" },
-    { src: "/images/FIO_5695.jpeg", label: "毛孩自然肖像" },
-    { src: "/images/FIO_0616.jpeg", label: "一家人合照" },
-    { src: "/images/FIO_3629.jpeg", label: "動態奔跑感" },
-    { src: "/images/FIO_5267.jpeg", label: "展現兩隻寵物" },
-    { src: "/images/FIO_5627.jpeg", label: "戶外生活感" },
-    { src: "/images/FIO_8867.jpeg", label: "城市散步感" },
+    { src: "public/i/images/FIO_1514.jpeg", label: "主人與毛孩互動" },
+    { src: "public/i/images/FIO_5695.jpeg", label: "毛孩自然肖像" },
+    { src: "public/i/images/FIO_0616.jpeg", label: "一家人合照" },
+    { src: "public/i/images/FIO_3629.jpeg", label: "動態奔跑感" },
+    { src: "public/i/images/FIO_5267.jpeg", label: "展現兩隻寵物" },
+    { src: "public/i/images/FIO_5627.jpeg", label: "戶外生活感" },
+    { src: "public/i/images/FIO_8867.jpeg", label: "城市散步感" },
   ];
 
   const packageItems = [

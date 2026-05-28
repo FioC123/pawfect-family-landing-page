@@ -40,10 +40,10 @@ export default function App() {
 ];
 
   const packageItems = [
-    { icon: Clock, text: "1 小時拍攝時間" },
-    { icon: PawPrint, text: "2 位主人與寵物，最多兩隻寵物" },
-    { icon: Sparkles, text: "所有相片已基本調色及光暗處理" },
-    { icon: ImageIcon, text: "10 張精修相片" },
+    { icon: Clock, text: "60分鐘拍攝時間" },
+    { icon: PawPrint, text: "2 位主人與寵物(最多兩隻寵物)" },
+    { icon: Sparkles, text: "包括所有相片(已基本調色及光暗處理)" },
+    { icon: ImageIcon, text: "10 張專業精修相片" },
     { icon: Download, text: "數碼高清 JPG 檔案" },
   ];
 
@@ -65,13 +65,12 @@ export default function App() {
             <p className="eyebrow">Pawfect Memories Photography</p>
             <h1>
               Pawfect Family
-              <span>寵物展限定戶外攝影方案</span>
+              <span>寵物用品展限定戶外攝影方案</span>
             </h1>
 
             <p className="intro">
-              為主人與毛孩而設的戶外家庭拍攝。自然互動、乾淨色調、保留毛孩最真實的表情與陪伴感，適合第一次拍攝，也適合想為家中寶貝留低珍貴回憶的你。
+            專為主人同毛孩而設嘅戶外家庭拍攝。用自然互動、溫柔光線同乾淨色調，記錄你哋之間最真實嘅陪伴，留低一輯可以一直珍藏嘅回憶。
             </p>
-
             <div className="button-row">
               <a className="button primary" href={whatsappLink} target="_blank">
                 <MessageCircle size={20} />

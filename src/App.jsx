@@ -22,14 +22,22 @@ export default function App() {
   const heroImage = "/images/FIO_5533.jpeg";
 
   const galleryImages = [
-    { src: "public/i/images/FIO_1514.jpg", label: "主人與毛孩互動" },
-    { src: "public/i/images/FIO_5695.jpg", label: "毛孩自然肖像" },
-    { src: "public/i/images/FIO_0616.jpg", label: "一家人合照" },
-    { src: "public/i/images/FIO_3629.jpg", label: "動態奔跑感" },
-    { src: "public/i/images/FIO_5267.jpg", label: "展現兩隻寵物" },
-    { src: "public/i/images/FIO_5627.jpg", label: "戶外生活感" },
-    { src: "public/i/images/FIO_8867.jpg", label: "城市散步感" },
-  ];
+
+  { src: "/images/FIO_1514.jpg", label: "主人與毛孩互動" },
+
+  { src: "/images/FIO_5695.jpg", label: "毛孩自然肖像" },
+
+  { src: "/images/FIO_0616.jpg", label: "一家人合照" },
+
+  { src: "/images/FIO_3629.jpg", label: "動態奔跑感" },
+
+  { src: "/images/FIO_5267.jpg", label: "展現兩隻寵物" },
+
+  { src: "/images/FIO_5627.jpg", label: "戶外生活感" },
+
+  { src: "/images/FIO_8867.jpg", label: "城市散步感" },
+
+];
 
   const packageItems = [
     { icon: Clock, text: "1 小時拍攝時間" },

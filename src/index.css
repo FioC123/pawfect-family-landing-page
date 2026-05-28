@@ -1,1 +1,36 @@
+* {
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans TC",
+    "Noto Sans HK",
+    sans-serif;
+  background: #f7f3ed;
+  color: #3f342d;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a.button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

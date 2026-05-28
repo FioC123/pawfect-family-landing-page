@@ -22,13 +22,13 @@ export default function App() {
   const heroImage = "/images/FIO_5533.jpeg";
 
   const galleryImages = [
-    { src: "public/i/images/FIO_1514.jpeg", label: "主人與毛孩互動" },
-    { src: "public/i/images/FIO_5695.jpeg", label: "毛孩自然肖像" },
-    { src: "public/i/images/FIO_0616.jpeg", label: "一家人合照" },
-    { src: "public/i/images/FIO_3629.jpeg", label: "動態奔跑感" },
-    { src: "public/i/images/FIO_5267.jpeg", label: "展現兩隻寵物" },
-    { src: "public/i/images/FIO_5627.jpeg", label: "戶外生活感" },
-    { src: "public/i/images/FIO_8867.jpeg", label: "城市散步感" },
+    { src: "public/i/images/FIO_1514.jpg", label: "主人與毛孩互動" },
+    { src: "public/i/images/FIO_5695.jpg", label: "毛孩自然肖像" },
+    { src: "public/i/images/FIO_0616.jpg", label: "一家人合照" },
+    { src: "public/i/images/FIO_3629.jpg", label: "動態奔跑感" },
+    { src: "public/i/images/FIO_5267.jpg", label: "展現兩隻寵物" },
+    { src: "public/i/images/FIO_5627.jpg", label: "戶外生活感" },
+    { src: "public/i/images/FIO_8867.jpg", label: "城市散步感" },
   ];
 
   const packageItems = [
@@ -97,7 +97,7 @@ export default function App() {
           <p className="eyebrow">Package</p>
           <h2>展覽限定拍攝方案</h2>
           <p className="section-text">
-            內容清晰、預約簡單，適合在展覽現場直接導流到 WhatsApp，減少來回查詢時間。
+            寵物展限定優惠，為你同毛孩安排一小時戶外拍攝。由自然互動到溫柔合照，將日常陪伴變成一輯可以珍藏嘅家庭照片。
           </p>
         </div>
 
@@ -144,7 +144,7 @@ export default function App() {
             可選西九文化區、清水灣郊野公園、獅子會自然教育中心。
           </InfoCard>
           <InfoCard icon={Heart} title="03. 輕鬆拍攝">
-            不用擔心毛孩不望鏡頭，以互動和自然情緒為主。
+            毛孩唔需要乖乖坐定定，拍攝會以牠們最自然嘅狀態進行，透過互動、散步同玩樂，捕捉你哋之間真實又溫柔嘅瞬間。
           </InfoCard>
         </div>
       </section>
@@ -154,7 +154,7 @@ export default function App() {
           <p className="eyebrow">Gallery</p>
           <h2>自然、乾淨、有陪伴感</h2>
           <p className="section-text">
-            以主人與毛孩的互動作主軸，再加入寵物肖像、動態奔跑及戶外生活感，令客人一眼感受到拍攝效果。
+            以你同毛孩之間最自然嘅相處為主角，從輕鬆互動、溫柔肖像，到戶外散步同奔跑瞬間，記錄一輯真正屬於你哋嘅家庭照片。
           </p>
 
           <div className="check-list">
@@ -182,9 +182,9 @@ export default function App() {
       <section className="cta-wrap">
         <div className="cta">
           <p className="eyebrow light">Limited Booking</p>
-          <h2>想喺展覽即場留住客人？</h2>
+          <h2>為你同毛孩，留低一輯有溫度嘅家庭照</h2>
           <p>
-            將 QR code 放在展位、海報和卡片上，連到這個頁面，再以 WhatsApp 收集查詢。整個流程要短、靚、少字，但每一步都清楚。
+            毛孩陪住我哋嘅時間，比想像中短。趁住今次寵物展限定優惠，為你哋之間最自然、最親密嘅日常，留下一份可以一直翻睇嘅回憶。
           </p>
           <a className="button white" href={whatsappLink} target="_blank">
             立即 WhatsApp 預約

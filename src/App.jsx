@@ -19,7 +19,7 @@ export default function App() {
   const whatsappLink =
     "https://wa.me/85294422612?text=你好，我想查詢 Pawfect Family 寵物展限定拍攝方案。";
 
-  const heroImage = "/images/FIO_5533.jpeg";
+  const heroImage = "/images/FIO_5533.jpg";
 
   const galleryImages = [
 
